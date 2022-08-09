@@ -32,3 +32,11 @@ In order for these examples to work, we will require the following steps:
 7. Upload Arduino related code to Arduino
 
 8. Since we are utilizing software serial to communicate between Arduino and ESP8266, connect Rx of ESP8266 to software Tx of Arduino, connect Tx of ESP8266 to software Rx of Arduino
+
+### Schematics for Uploading to ESP8266
+
+![alt Programming ESP8266](Schematics/Programming%20ESP8266_bb.png)
+
+### Schematics for Uploading to Arduino and communicate data between Arduino-ESP8266
+
+![alt Programming ESP8266](Schematics/Reading-Writing%20From%20ESP%20to%20Arduino_bb.png)
